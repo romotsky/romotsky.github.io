@@ -16,6 +16,7 @@
 	--gray-dark:#343a40;
 	--primary:#1abc9c;
 	--secondary:#2c3e50;
+	--terciary:#e2dcf5;
 	--success:#28a745;
 	--info:#17a2b8;
 	--warning:#ffc107;
@@ -5015,6 +5016,11 @@ a.bg-primary:focus,a.bg-primary:hover,button.bg-primary:focus,button.bg-primary:
 a.bg-secondary:focus,a.bg-secondary:hover,button.bg-secondary:focus,button.bg-secondary:hover{
 	background-color:#1a252f!important
 }
+
+.bg-terciary{
+	background-color:#e2dcf5!important
+}
+
 .bg-success{
 	background-color:#28a745!important
 }
@@ -7886,7 +7892,7 @@ a.text-dark:focus,a.text-dark:hover{
 	left:0;
 	transition:all .2s ease-in-out;
 	opacity:0;
-	background-color:rgba(0,188,156,.9)
+	background-color:#e2dcf5
 }
 .skills .skills-item .skills-item-caption:hover{
 	opacity:1
