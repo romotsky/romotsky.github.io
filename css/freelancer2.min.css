@@ -293,6 +293,10 @@ template{
 	font-size:1.25rem;
 	font-weight:300
 }
+.lead_skill{
+	font-size:1.75rem;
+	font-weight:300
+}
 .display-1{
 	font-size:6rem;
 	font-weight:300;
@@ -7922,8 +7926,9 @@ a.text-dark:focus,a.text-dark:hover{
 }
 
 .img-skills {
-	max-width:100%;
-	height:auto;
+	max-height:120px;
+	max-width:160px;
+	width:auto;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
@@ -7935,6 +7940,17 @@ a.text-dark:focus,a.text-dark:hover{
   filter: none;
 }
 
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
 
 .floating-label-form-group{
 	position:relative;
