@@ -452,19 +452,7 @@ pre code{
 	margin-right:auto;
 	margin-left:auto
 }
-.container img{
-  width: 100%;
-  height: auto;
-	background-size:cover;
-    margin: 0 auto;
-}
-@supports(object-fit: cover){
-    .container img{
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
-    }
-}
+
 .row{
 	display:flex;
 	flex-wrap:wrap;
