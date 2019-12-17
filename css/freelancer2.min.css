@@ -295,7 +295,8 @@ template{
 }
 .lead_skill{
 	font-size:1.75rem;
-	font-weight:300
+	font-weight:300;
+	color:#14806a
 }
 .display-1{
 	font-size:6rem;
