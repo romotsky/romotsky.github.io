@@ -918,8 +918,9 @@ pre code{
 		max-width:33.33333%
 }
 	.col-lg-5{
-		flex:0 0 41.66667%;
-		max-width:41.66667%
+		flex:0 0 33.33333%;
+		max-width:33.33333%;
+		border-style: none dotted none none
 }
 	.col-lg-6{
 		flex:0 0 50%;
@@ -7929,6 +7930,8 @@ a.text-dark:focus,a.text-dark:hover{
 	max-height:120px;
 	max-width:160px;
 	width:auto;
+	/*padding: 1em;*/
+	margin-bottom: 0.25em;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
