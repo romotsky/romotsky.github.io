@@ -452,6 +452,19 @@ pre code{
 	margin-right:auto;
 	margin-left:auto
 }
+.container img{
+  width: 100%;
+  height: auto;
+	background-size:cover;
+    margin: 0 auto;
+}
+@supports(object-fit: cover){
+    .container img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
 .row{
 	display:flex;
 	flex-wrap:wrap;
@@ -7939,6 +7952,18 @@ a.text-dark:focus,a.text-dark:hover{
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
+
+.img-masthead {
+	height:1200px;
+	width:1600px;
+	/*width:auto;*/
+	/*padding: 1em;*/
+	/*margin-bottom: 0.25em;*/
+  /*filter: gray; /* IE6-9 */
+  /*-webkit-filter: grayscale(1);  Google Chrome, Safari 6+ & Opera 15+ */
+  /*filter: grayscale(1);  Microsoft Edge and Firefox 35+ */
+}
+
 
 /* Disable grayscale on hover */
 .img-skills:hover {
