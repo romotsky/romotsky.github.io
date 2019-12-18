@@ -25,7 +25,7 @@
   <meta name="description" content="">
   <meta name="author" content="Daniel Romotsky">
 
-  <title>Daniel Romotsky - Data Automator, Marketer, Visualizer</title>
+  <title>Daniel Romotsky - Data Guy - Marketer - Visualizer</title>
 
   <!-- Custom fonts for this theme -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -264,7 +264,7 @@
           </u1>
         </div>
         <div class="col-lg-5 mr-auto">
-          <p class="lead_skill text-center">Marketing</p>
+          <p class="lead_skill text-center">Marketing Tools</p>
           <u1 class="list-inline dev-icons">
             <img class="img-skills" src="img/skills/googleads.png" alt="">
             <img class="img-skills" src="img/skills/facebook.png" alt="">
@@ -316,8 +316,8 @@
       <!-- Contact Section Form -->
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeRXDLw9LV63j0YligEG_Gaeox9zcrLi_YhZmlrIx7WSmpLcQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+          <!-- Using google forms -->
+          <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeRXDLw9LV63j0YligEG_Gaeox9zcrLi_YhZmlrIx7WSmpLcQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true; window.location.href = 'thanks.html';">
             
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -336,29 +336,27 @@
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Message</label>
-                <textarea class="form-control" placeholder="Message" required="required" data-validation-required-message="Please enter a message." name="entry.1665777097" id="entry.1665777097"></textarea>
+                <textarea class="form-control" type="message" placeholder="Message" required="required" data-validation-required-message="Please enter a message." name="entry.1665777097" id="entry.1665777097"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton" onclick="window.location.href = 'thanks.html';">Send</button>
+              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
             </div>
           </form>
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-          <script src="assets/js/jquery.min.js"></script>
+        <!-- <script src="assets/js/jquery.min.js"></script>
           <script type="text/javascript">var submitted=false;</script>
           <script type="text/javascript">
             $('#gform').on('submit', function(e) {
               $('#gform *').fadeOut(2000);
               $('#gform').prepend('Thanks for your message!');
-            });
-          </script>
+            }); 
+          </script> -->
         </div>
-
       </div>
-
     </div>
   </section>
 
