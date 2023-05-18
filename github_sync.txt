@@ -1,0 +1,10 @@
+Thu Apr 20 08:17:34 on console
+danielromotsky@Daniels-MBP-2 ~ % git --version
+git version 2.37.1 (Apple Git-137.1)
+danielromotsky@Daniels-MBP-2 ~ % pwd
+/Users/danielromotsky
+danielromotsky@Daniels-MBP-2 ~ % cd /Users/danielromotsky/Dropbox/Portfolio/Website
+danielromotsky@Daniels-MBP-2 Website % pwd
+/Users/danielromotsky/Dropbox/Portfolio/Website
+danielromotsky@Daniels-MBP-2 Website % ;  
+
